@@ -1,0 +1,16 @@
+{
+    "name": "Agava.WebGeolocation.Samples.Playtesting",
+    "rootNamespace": "Agava.WebGeolocation.Samples.Playtesting",
+    "references": [
+        "GUID:4b12495ec49cb8346b2fcc91b6776b0e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
