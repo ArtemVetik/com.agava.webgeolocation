@@ -1,0 +1,17 @@
+{
+  "name": "com.agava.webgeolocation",
+  "version": "1.0.0",
+  "displayName": "Web Geolocation",
+  "type": "library",
+  "unity": "2022.3",
+  "description": "Tool for using Web Geolocation API.",
+  "license": "MIT",
+  "samples": [
+    {
+      "displayName": "Playtesting Sample",
+      "description": "Contains an example of obtaining a user's geolocation.",
+      "path": "Samples~/Playtesting"
+    }
+  ],
+  "author": "github.com/artemvetik"
+}
