@@ -31,7 +31,7 @@ namespace Agava.WebGeolocation.Samples.Playtesting
             WebGeolocation.GetCurrentPosition(
                 onSuccessCallback: (position) => _infoText.text = $"GetPosition: {JsonUtility.ToJson(position)}",
                 onErrorCallback: (error) => _infoText.text = $"GetPosition: {JsonUtility.ToJson(error)}",
-                options: new PositionOptions()
+                options: new PositionOptions { timeout = 10000 }
             );
         }
 
@@ -40,7 +40,7 @@ namespace Agava.WebGeolocation.Samples.Playtesting
             _watchId = WebGeolocation.WatchPosition(
                 onSuccessCallback: (position) => _infoText.text = $"WatchPosition: {JsonUtility.ToJson(position)}",
                 onErrorCallback: (error) => _infoText.text = $"WatchPosition: {JsonUtility.ToJson(error)}",
-                options: new PositionOptions()
+                options: new PositionOptions { timeout = 10000 }
             );
         }
 
