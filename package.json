@@ -1,6 +1,6 @@
 {
   "name": "com.agava.webgeolocation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Web Geolocation",
   "type": "library",
   "unity": "2022.3",
